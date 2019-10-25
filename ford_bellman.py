@@ -28,6 +28,7 @@ class Graph:
     # also detects negative weight cycle
     def BellmanFord(self, src):
 
+        self.predecessor = [-1] * self.V
         # Step 1: Initialize distances from src to all other vertices
         # as INFINITE
         dist = [float("Inf")] * self.V
