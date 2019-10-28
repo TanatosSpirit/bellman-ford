@@ -57,9 +57,9 @@ class Graph:
                 return
 
         # print all distance
-        self.printArr(dist)
+        # self.printArr(dist)
         # print(self.predecessor)
-        return self.predecessor
+        return [self.predecessor, dist]
 
 
 def main():
@@ -72,7 +72,7 @@ def main():
     g.addEdge(3, 0, 5)
 
     # Print the solution
-    g.BellmanFord(2)
+    print(g.BellmanFord(2))
 
 
 if __name__ == '__main__':
