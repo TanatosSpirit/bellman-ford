@@ -24,6 +24,9 @@ class Graph:
 
         # The main function that finds shortest distances from src to
 
+    def reset_map(self):
+        self.graph = []
+
     # all other vertices using Bellman-Ford algorithm. The function
     # also detects negative weight cycle
     def BellmanFord(self, src):
