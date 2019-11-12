@@ -1,3 +1,5 @@
+# coding=cp1251
+
 # Python program for Bellman-Ford's single source
 # shortest path algorithm.
 
@@ -73,7 +75,7 @@ class Graph:
 
 
 def main():
-    # Р“СЂР°С„ РґР»СЏ С‚РµСЃС‚РѕРІ
+    # Граф для тестов
     g = Graph()
     g.set_num_vertices(4)
     g.addEdge(0, 1, 8, 1)
