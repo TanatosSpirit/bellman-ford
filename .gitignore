@@ -6,3 +6,5 @@ __pycache__/
 .ipynb_checkpoints/
 
 bellman_ford_extended.pyc
+
+*.pyc
